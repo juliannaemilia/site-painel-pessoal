@@ -86,7 +86,7 @@ export function DashboardOverviewPage(): JSX.Element {
   return (
     <div className="flex flex-col gap-10">
       <div>
-        <h1 className="text-2xl font-bold text-foreground">Olá, {user?.fullName ?? "visitante"}</h1>
+        <h1 className="text-2xl font-bold text-foreground">Olá bem-vindo (a), {user?.fullName ?? "visitante"}</h1>
         <p className="text-sm text-muted-foreground">Aqui está um resumo do seu painel pessoal.</p>
       </div>
 
